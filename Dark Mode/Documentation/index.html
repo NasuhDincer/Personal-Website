@@ -1,0 +1,605 @@
+/**
+* Author:    Nasuh Dincer
+* Created:   13/03/2022
+*
+* (c) Copyright by Nasuh Dincer Corp.
+*/
+
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!-- Title of The Page -->
+    <title>Gaspar | Personal Portfolio HTML Template</title>
+    <meta name="description" content="">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon-1.png">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?Nunito:400,700&display=swap' rel='stylesheet'>
+    <!-- Syntax Highlighter -->
+    <link rel="stylesheet" type="text/css" href="highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="highlighter/styles/shThemeDefault.css" media="all">
+    <!-- Normalize/Reset CSS-->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <aside class="left-sidebar">
+        <div class="logo">
+            <a href="#welcome"><img src="img/Untitled-1.png" alt=""></a>
+        </div>
+        <nav class="left-nav">
+            <ul id="nav">
+                <li class="current"><a href="#welcome">Welcome</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#tmpl-structure">Structure</a></li>
+                <li><a href="#css-structure">CSS Files</a></li>
+                <li><a href="#javascript">JavaScript Libraries</a></li>
+                <li><a href="#main-js">Main Js Structure</a></li>
+                <li><a href="#customization">Customization</a></li>
+                <li><a href="#credit">Source and Credit</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div id="main-wrapper">
+        <div class="main-content">
+            <section id="welcome">
+                <div class="content-header">
+                    <h1>Gaspar | Personal Portfolio HTML Template</h1>
+                </div>
+                <div class="welcome">
+                    <ul class="ml-20">
+                        <li><b>Template Name:</b> Gaspar | Personal Portfolio HTML Template</li>
+                        <li><b>Version:</b> 1.0.0</li>
+                        <li><b>Last Updated On:</b> 09 March 2022</li>
+                        <li><b>Author:</b> <a href="javascript:void(0)">AVS Technolabs</a></li>
+                    </ul>
+                    <p>Thank you so much for choosing this template. Your comments and ratings would be highly appreciated. You have purchased this template so, you will get full support from us. We will update this template time to time and we want to hear from you for the future updates or for complete new templates.</p>
+                </div>
+
+                <div class="features">
+                    <h2 class="twenty">Template Features :-</h2>
+                    <ul>
+                        <li>HTML5 &amp; CSS3</li>
+                        <li>Bootstrap v5 x</li>
+                        <li>Font-awesome</li>
+                        <li>Exclusive & Unique intro animation</li>
+                        <li>Exclusive portfolio showcase slider</li>
+                        <li>Fully Responsive to all devices</li>
+                        <li>Latest & Modern Design</li>
+                        <li>Pixel Perfect Design</li>
+                        <li>One Page Nav Design</li>
+                        <li>Flexible and multi-purpose</li>
+                        <li>HTML & CSS & JS files are included</li>
+                        <li>Clean Code &amp; Unique Design</li>
+                        <li>Easy to Customize</li>
+                        <li>jQuery</li>
+                        <li>Detailed documentation</li>
+                        <li>All Features</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="installation">
+                <h2 class="title">Installing Template :-</h2>
+                <div class="section-content">
+                    <ol class="ml-20">
+                        <li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
+                        <li>You can view this Template in any browser, you can display or edit the Template without an
+                            internet connection.(May not work fonts).
+                        </li>
+                        <li>The only section that will not work is the Contact Section which is not dynamic</li>
+                        <li>Now go to your cpanel or open your FTP Client (like <a target="_blank"
+                                href="https://filezilla-project.org/download.php" rel="nofollow">Filezilla</a>) and
+                            upload
+                            the content of the Template on your server's root directory.
+                        </li>
+                        <li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="tmpl-structure">
+                <h2 class="title">Template Structure :-</h2>
+                <p class="fifteen">All information within the main content area is nested within a body tag. The general
+                    template structure is pretty the same throughout the template. Here is the general structure of main
+                    page (index.html).</p>
+                <pre class="brush: html">
+                         <!-- Body Part Start -->
+                            <div class="gaspar" data-magic-cursor="show" data-color="crimson">
+                            <!-- PreLoader Start-->
+                            <div id="preloader">
+                            <div class="loader_line"></div>
+                            </div>
+                            <!-- PreLoader end -->
+                            <!-- Header-section Start-->
+                               <div class="header-holder services-section text-center animate__animated animate__zoomIn">
+                                    <!-- Indicator Start-->
+                                    <div class="indicator"></div>
+                                    <!-- Indicator End-->
+                                </div>
+                            <!-- Header-section End-->                        
+                            <!-- section-part Start -->
+                                <div class="container ">
+                                    <!-- Index-page Start -->
+                                    <section id="home" class="section active">
+                                    </section>
+                                    <!-- Index-page End -->
+                                    <!-- About Section Start -->
+                                    <section id="about" class="section ">
+                                    </section>
+                                    <!-- About Section End -->
+                                    <!-- Protfolio Section Start-->
+                                    <section id="portfolio" class="section">
+                                    </section>
+                                    <!-- Protfolio Section End -->
+                                    <!-- Blog section Start -->
+                                    <section id="blog" class="section">
+                                    </section>
+                                    <!-- Blog section End -->
+                                    <!-- Contact section Start -->
+                                    <section id="contact" class="section">
+                                    </section>
+                                    <!-- Contact section End -->
+                                </div>
+                            <!-- section-part End-->
+                            </div>
+                            <!-- Body Part End -->
+                            <!-- Mouse-Cursor -->
+                            <div class="mouse-cursor cursor-outer"></div>
+                            <div class="mouse-cursor cursor-inner"></div>
+                            <!-- Mouse-Cursor End-->  
+                </pre>
+            </section>
+
+            <section id="tmpl-structure">
+                <h2 class="title">Wrap Effect Image Structure:-</h2>
+                <p>Load wrap.js and configure the particles:</p>
+                <pre class="brush: html">
+              <!-- Profile-Pic -->
+                <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                    <div class="home-profile animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img class="card" src="assets/images/profile/01.jpg"  alt="home-profile">
+                    </div>
+                </div>
+              <!-- Profile-Pic End-->
+                </pre>
+            </section>
+
+            <section id="tmpl-structure">
+                <h2 class="title">Particles Effect Image Structure:-</h2>
+                <p>Load particles.js and configure the particles:</p>
+                <pre class="brush: html">
+              <!-- Profile-Pic -->
+                <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                    <div id="particles-js" class="home-profile particles-js animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="assets/images/profile/01.jpg" alt="home-profile">
+                    <canvas class="particles-js-canvas-el" width="100%" height="100%" style="width: 100%;height: 100%;position:absolute;top: 0;"></canvas>
+                    </div>
+                </div>
+              <!-- Profile-Pic End-->
+                </pre>
+            </section>
+
+            <section id="tmpl-structure">
+                <h2 class="title">Water Ripple Effect Image Structure:-</h2>
+                <p>Load ripples.jS and configure the particles:</p>
+                <pre class="brush: html">
+              <!-- Profile-Pic -->
+                <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                    <div class=" home-profile water-js animate__animated animate__fadeInLeft animate__delay-1s">
+                        <img src="assets/images/profile/01.jpg" alt="home-profile">
+                    </div>
+                </div>
+              <!-- Profile-Pic End-->
+                </pre>
+            </section>
+
+
+            <section id="tmpl-structure">
+                <h2 class="title">Glitch Effect Image Structure:-</h2>
+                <p>Load mgGlitch.js and configure the particles:</p>
+                <pre class="brush: html">
+              <!-- Profile-Pic -->
+              <div class=" col-xl-5 col-lg-6 col-md-6 col-12">
+                <div class="home-profile animate__animated animate__fadeInLeft animate__delay-1s">
+                  <div class="glitch-img-warp">
+                    <img src="assets/images/profile/01.jpg" alt="home-profile">
+                    <div class="glitch-img"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Profile-Pic End-->
+                </pre>
+            </section>
+
+
+            <section id="css-structure">
+                <h2 class="title">CSS Files and Structure :-</h2>
+                <p class="fifteen">These are the css files that are loaded into templates in <strong>Head
+                        Section</strong>.
+                </p>
+                <pre class="brush: html">
+                            <!-- Title of The Page -->
+                            <title>Gaspar | Personal Portfolio HTML Template</title>
+                            <!-- Meta Informations -->
+                            <meta charset="utf-8">
+                            <meta name="description" content="Bootstrap 5 Responsive Gaspar | Personal Portfolio HTML Template">
+                            <meta name="keywords"content="Gaspar | Personal Portfolio HTML Template , template, bootstrap 5, ui template kit, Gaspar Personal Portfolio, html, css">
+                            <meta name="author" content="Gaspar | Personal Portfolio HTML Template">
+                            <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <!-- Favicon -->
+                            <link type="image/x-icon" rel="shortcut icon" href="assets/images/logo/favicon.png" />
+                            <!-- Font CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/fonts/font.css" />
+                            <!-- Font-Awesome All CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/all.css" />
+                            <!-- Bootstrap CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+                            <!-- Owlcarousel CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+                            <!-- Fancybox CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+                            <!-- Animate CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/animate.min.css" />
+                            <!-- Styleswitcher CSS -->
+                            <link rel="stylesheet" type="text/css" href="assets/css/styleswitcher.css" />
+                            <!-- Styles CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/styles.css" />
+                            <!-- Live Style Switcher - demo only -->
+                            <link rel="alternate stylesheet" type="text/css" title="orange" href="assets/css/skins/orange.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="blue" href="assets/css/skins/blue.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="green" href="assets/css/skins/green.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="yellow" href="assets/css/skins/yellow.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="assets/css/skins/blueviolet.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="assets/css/skins/goldenrod.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="magenta" href="assets/css/skins/magenta.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="purple" href="assets/css/skins/purple.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="red" href="assets/css/skins/red.css" />
+                            <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="assets/css/skins/yellowgreen.css" />
+                            <!-- Responsive CSS -->
+                            <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
+                </pre>
+
+                <h2 class="title">Google Web Fonts :-</h2>
+
+                <p>By default, the template loads this font from Google Web Font Services, you can change the font with
+                    the
+                    one that suits you best.</p>
+
+                <pre class="brush:html">
+                     <!-- Google Font =========================== -->
+                     <link href="https://fonts.google.com/specimen/Lato">
+                </pre>
+
+                <p class="twenty">Remember to change the font into <strong>main.css</strong></p>
+            </section>
+
+            <section id="tmpl-structure">
+                <h2 class="title">Color-Box Structure:-</h2>
+                <p class="fifteen">This is the list of color Boxes that are loaded into the template at top of the 
+                    <strong>Body Section</strong>.</p>
+             
+                <pre class="brush: html">
+                    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog" aria-hidden="true"></i></div>
+                    <div id="switcher">
+                    <div class="content-switcher">
+                        <h4>Unlimited Colors</h4>
+                        <ul>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img
+                                src="assets/images/styleswitcher/orange.png" alt="orange" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img
+                                src="assets/images/styleswitcher/purple.png" alt="purple" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img
+                                src="assets/images/styleswitcher/red.png" alt="red" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img
+                                src="assets/images/styleswitcher/blueviolet.png" alt="blueviolet" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img
+                                src="assets/images/styleswitcher/blue.png" alt="blue" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img
+                                src="assets/images/styleswitcher/goldenrod.png" alt="goldenrod" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img
+                                src="assets/images/styleswitcher/magenta.png" alt="magenta" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img
+                                src="assets/images/styleswitcher/yellowgreen.png" alt="yellowgreen" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img
+                                src="assets/images/styleswitcher/green.png" alt="green" /></a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img
+                                src="assets/images/styleswitcher/yellow.png" alt="yellow" /></a>
+                        </li>
+                        </ul>
+                        <h4>Light Mode</h4>
+                        <div class="switch" id="switcherrr">
+                            <a href="#"><i class="fas fa-sun open"></i></a>
+                        </div>
+                        <h4 class="title">Magic Cursor</h4>
+                        <ul class="cursor">
+                            <li><a class="showme show" href="#"></a></li>
+                            <li><a class="hide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="svg" id="Capa_1"
+                                    enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                                    class="svg replaced-svg">
+                                    <g>
+                                    <path d="m451.002 183.574h29.997v84.853h-29.997z"
+                                        transform="matrix(.707 -.707 .707 .707 -23.318 395.706)"></path>
+                                    <path d="m271.002 3.574h29.997v84.853h-29.997z"
+                                        transform="matrix(.707 -.707 .707 .707 51.241 215.706)"></path>
+                                    <path d="m423.574 31.002h84.853v29.997h-84.853z"
+                                        transform="matrix(.707 -.707 .707 .707 103.961 342.985)"></path>
+                                    <path
+                                        d="m42.422 512 150.458-150.458 42.114 125.464 152.988-362.988-362.988 152.988 125.464 42.114-150.458 150.458z">
+                                    </path>
+                                    <path d="m361 0h30v61h-30z"></path>
+                                    <path d="m451 121h61v30h-61z"></path>
+                                    </g>
+                                </svg></a></li>
+                        </ul>
+                        <a target="_blank" href="https://themeforest.net/item/gaspar-personal-portfolio-html-template/36192601"
+                        class="purchse-btn"><i class="fa fa-shopping-cart"></i> Purchase</a>
+                        <div id="hideSwitcher">&times;</div>
+                    </div>
+                    </div>
+                </pre>
+            </section>
+
+            <section id="javascript">
+                <h2 class="title">Javascript Files and Structure</h2>
+
+                <p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the
+                    <strong>Body Section</strong>
+                <pre class="brush: html">
+                    <!-- Jquery Js -->
+                    <script src="assets/js/jquery.min.js"></script>
+
+                    <!-- Bootstrap Js -->
+                    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+                    <!-- Jquery FancyBox Js -->
+                    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+                    <!-- Mixitup Js -->
+                    <script src="assets/js/mixitup.min.js"></script>
+
+                    <!-- Jquery Countdown Js -->
+                    <script src="assets/js/jquery.countdown.min.js"></script>
+
+                    <!-- Owlcarousel Js -->
+                    <script src="assets/js/owl.carousel.min.js"></script>
+
+                    <!-- Wow Js -->
+                    <script src="assets/js/wow.min.js"></script>
+
+                    <!-- Custom Js -->
+                    <script src="assets/js/custom.js"></script>
+
+                    <!-- Styleswitcher JS -->
+                    <script src="assets/js/styleswitcher.js"></script>
+
+                    <!-- Init JS -->
+                    <script src="assets/js/init.js"></script>
+
+                    <!-- Wrap Js -->
+                    <script src="assets/js/wrap.js"></script>
+
+                    <!--Particles Js -->
+                    <script src="assets/js/particles.min.js"></script>
+                    <script src="assets/js/particlesjs-config.js"></script>
+
+                    <!-- JQuery Ripples JS -->
+                    <script src="assets/js/jquery.ripples.min.js"></script>
+                    
+                    <!-- MgGlitch Js -->
+                    <script src="assets/js/mgGlitch.min.js"></script>
+                </pre>
+            </section>
+            <section id="main-js">
+                <h2 class="title"> Main.js File Structure :-</h2>
+                <p>This is a js file to activate different animations and functionality of this template</p>
+                <pre class="brush:php">
+
+                    /*----------------------------
+                    Jquery Js
+                    ------------------------------ */
+                    
+                    /*----------------------------
+                    Bootstrap Js
+                    ----------------------------*/
+                    
+                    /*-----------------------------
+                    Jquery FancyBox Js
+                    ------------------------------*/
+                    
+                    /*-----------------------------
+                    Mixitup Js
+                    ------------------------------*/
+
+                    /*----------------------------
+                    Jquery Countdown Js
+                    ------------------------------ */
+                    
+                    /*----------------------------
+                    Owlcarousel Js
+                    ----------------------------*/
+
+                    /*----------------------------
+                    Wow Js
+                    ----------------------------*/
+                    
+                    /*-----------------------------
+                    Custom Js
+                    ------------------------------*/
+
+                    /*-----------------------------
+                    Styleswitcher JS
+                    ------------------------------*/
+
+                    /*-----------------------------
+                    Init JS
+                    ------------------------------*/
+                    
+                    /*-----------------------------
+                    Wrap Js
+                    ------------------------------*/
+
+                    /*-----------------------------
+                    Particles Js
+                    ------------------------------*/
+
+                    /*-----------------------------
+                    JQuery Ripples JS
+                    ------------------------------*/
+
+                    /*-----------------------------
+                    MgGlitch Js
+                    ------------------------------*/
+      </pre>
+            </section>
+            <section id="customization">
+                <h2 class="title"> Template Customization :-</h2>
+                <p>You can customize this template with your own content. Here are some basic changes you need.</p>
+                <h3 class="title"> Menu Items Customize </h3>
+                <p>You need to change the menu items text in the code to change the menu. Change the text home, about,
+                    work,
+                    expertise, blog, contact (if you want)</p>
+                <pre class="brush: html">
+                        <!-- Header-section Start-->
+                        <div class="header-holder services-section text-center animate__animated animate__zoomIn">
+                            <div class="navigation">
+                              <ul class="nav">
+                                <li class="list active">
+                                  <a href="#home" class="active">
+                                    <span class="icon">
+                                      <i class="fas fa-house-user"></i>
+                                    </span>
+                                    <div class="social__tooltip social__tooltip-bottom">Home</div>
+                                  </a>
+                                </li>
+                                <li class="list">
+                                  <a href="#about">
+                                    <span class="icon">
+                                      <i class="fas fa-user-alt"></i>
+                                    </span>
+                                    <div class="social__tooltip social__tooltip-bottom">About</div>
+                                  </a>
+                                </li>
+                                <li class="list">
+                                  <a href="#portfolio">
+                                    <span class="icon">
+                                      <i class="fas fa-briefcase"></i>
+                                    </span>
+                                    <div class="social__tooltip social__tooltip-bottom">Portfolio</div>
+                                  </a>
+                                </li>
+                                <li class="list">
+                                  <a href="#blog">
+                                    <span class="icon">
+                                      <i class="fas fa-blog"></i>
+                                    </span>
+                                    <div class="social__tooltip social__tooltip-bottom">Blog</div>
+                                  </a>
+                                </li>
+                                <li class="list">
+                                  <a href="#contact">
+                                    <span class="icon">
+                                      <i class="fas fa-phone-alt"></i>
+                                    </span>
+                                    <div class="social__tooltip social__tooltip-bottom">Contact</div>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        <!-- Header-section End-->
+                </pre>
+                <h3 class="title"> Footer Copyright Change </h3>
+                <p>Just change the copyright text in the code</p>
+                <pre class="brush: html">
+                             <!-- Footer Start-->
+                             <div class="row justify-content-center animate__animated animate__fadeInUp animate__delay-5s">
+                                <div class="col-lg-6 text-center">
+                                <h5 class="footer">Copyright&copy; &#160;
+                                    <script>
+                                    document.write(new Date().getFullYear())
+                                    </script><a> AVS Technolabs</a>&#160;&#160;
+                                    <i class="fas fa-heart animate__animated animate__pulse animate__faster animate__infinite infinite"></i>&#160;&#160;
+                                    All rigths reserved</h5>
+                                </div>
+                            </div>
+                            <!-- Footer End -->
+                </pre>
+            </section>
+            <section id="credit">
+                <h2 class="title">Source and Credit</h2>
+                <div class="script-source">
+                    <ul class="ml-20">
+                        <li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
+                        <li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
+                        <li><a target="_blank" href="http://www.pexels.com">Pexels</a></li>
+                        <li><a target="_blank" href="https://unsplash.com/">unsplash</a></li>
+                        <li><a target="_blank" href="https://jqueryui.com/">Jquery-Ui Js</a></li>
+                        <li><a target="_blank" href="http://fancybox.net/">FancyBox Js</a></li>
+                        <li><a target="_blank" href="https://www.kunkalabs.com/mixitup/">Mixitup Js</a></li>
+                        <li><a target="_blank" href="http://keith-wood.name/countdown.html">Countdown Js</a></li>
+                        <li><a target="_blank" href="https://leancloud.github.io/javascript-sdk/docs/init.js.html">Init Js</a></li>
+                        <li><a target="_blank" href="https://wowjs.uk/docs">Wow Js</a></li>
+                        <li><a target="_blank" href="https://github.com/hannesl/StyleSwitcher">Styleswitcher Js</a></li>
+                        <li><a target="_blank" href="https://owlcarousel2.github.io/OwlCarousel2/">Owlcarousel Js</a></li>
+                        <li><a target="_blank" href="https://jakiestfu.github.io/Ripple.js/demo/">Ripples Js</a></li>
+                        <li><a target="_blank" href="https://vincentgarreau.com/particles.js/">Particles Js</a></li>
+                        <li><a target="_blank" href="https://www.jquerycards.com/other/animation-effects/mgglitch/">MgGlitch Js</a></li>
+                    </ul>
+                </div>
+                <div class="note">
+                    <h3><b>Note:</b></h3>
+                    <ul class="ml-20">
+                        <li>While images and illustration are not included in the download package – but if you need the
+                            images and illustration please feel free to contact with us.
+                        </li>
+                        <li>This Template is not WordPress Theme, and can’t be installed in WordPress.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Essential JavaScript Libraries
+    ==============================================-->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="highlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="highlighter/scripts/shBrushXml.js"></script>
+    <script type="text/javascript" src="highlighter/scripts/shBrushCss.js"></script>
+    <script type="text/javascript" src="highlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="highlighter/scripts/shBrushPhp.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
